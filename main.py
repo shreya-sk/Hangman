@@ -131,5 +131,5 @@ class HangmanGame:
 
 if __name__ == "__main__":
     player = HangmanGame()
-    obj = player.generateRandomWord()
+    obj = HangmanGame.generateRandomWord()
     player.hangmanGame(obj)
